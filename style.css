@@ -4,11 +4,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 body{
-    background-color: green;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.boxes {
+    padding: 50px;
+    width: 450px;
+    height: 550px;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+ background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+ background-color: hsl(179, 100%, 13%);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
