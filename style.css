@@ -39,7 +39,7 @@ img{
 }
 
 .boxes {
-    padding: 70px;
+    padding: 40px;
     width: 350px;
     height: 550px;
     display: flex;
@@ -48,6 +48,7 @@ img{
     justify-content: space-evenly;
     color: white;
     margin-bottom: 35px;
+    line-height: 1.5rem;
 }
 
 .btn {
