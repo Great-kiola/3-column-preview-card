@@ -1,41 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
 }
 
-body{
+body {
     background-color: hsl(0, 0%, 95%);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
 }
 
-h1{
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 .boxes {
     padding: 50px;
     width: 450px;
-    height: 550px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
 }
 
-.sedan{
+.btn {
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+.sedan .btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv .btn {
+    color: hsl(184, 100%, 22%)
+}
+
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.sedan {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
+
 }
 
-.suv{
- background-color: hsl(184, 100%, 22%);
+.suv {
+    background-color: hsl(184, 100%, 22%);
 }
 
-.luxury{
- background-color: hsl(179, 100%, 13%);
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
